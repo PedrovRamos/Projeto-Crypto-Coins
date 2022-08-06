@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: rgb(243, 243, 243);
+}
+
+h1{
+    background-color: rgb(119, 71, 231);
+    color: white;
+    height: 60px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Epilogue';
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+    gap: 5px;
+}
+
+li{
+    text-align: center;
+    /* width: 350px; */
+    height: 60px;
+    background-color: rgba(179, 161, 219, 0.575);
+    padding-top: 44px ;
+    font-family: 'Epilogue';
+    border-radius: 20px;
+    border: 3px solid rgb(236, 236, 236);
+    flex-grow: 3;
+    color: rgb(29, 29, 29);
+    font-size: 25px;
+}
+
+p{
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Epilogue';
+}
+
+@media only screen and (max-width: 540px) {
+    li{
+        font-size: 20px;
+        height: 60px;
+        padding-top: 44px ;
+    }
+  }
