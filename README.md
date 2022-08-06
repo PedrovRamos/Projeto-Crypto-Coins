@@ -1,0 +1,1 @@
+neste projeto criei um simples site que expõe a cotação em tempo real das principais criptomoedas do mercado!
